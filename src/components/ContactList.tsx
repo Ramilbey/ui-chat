@@ -68,7 +68,7 @@ const ContactList = ({ onSelectUser }) => {
         </div>
       </div>
 
-      {/* Users List - SCROLLABLE */}
+      
       <div className="flex-1 overflow-y-auto px-4 py-2">
         {filteredUsers.length > 0 ? (
           filteredUsers.map((user) => (
@@ -95,7 +95,7 @@ const ContactList = ({ onSelectUser }) => {
         )}
       </div>
 
-      {/* Groups Section */}
+   
       {groups.length > 0 && (
         <div className="flex-shrink-0 px-4 pb-4 border-t border-border pt-4">
           <div className="flex items-center justify-between mb-3">
