@@ -9,10 +9,10 @@ const Index = () => {
   
   return (
     <div className="flex h-screen w-screen overflow-hidden">
-      <Sidebar />
+      <Sidebar  />
       <ContactList onSelectUser={setSelectedUser} />
       <ChatArea selectedUser={selectedUser} />
-      <ProfilePanel />
+      <ProfilePanel selectedUser={selectedUser}/>
     </div>
   );
 };
