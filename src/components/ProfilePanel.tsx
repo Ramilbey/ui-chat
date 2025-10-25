@@ -64,10 +64,10 @@ const ProfilePanel = ({ selectedUser }) => {
   }
 
   return (
-    <div className="w-[340px] bg-card border-l border-border h-screen overflow-y-auto">
+    <div className="w-[340px] bg-card border-l border-border h-[720px] shadow-lg rounded-[30px] overflow-y-auto m-3">
       
-      <div className="relative h-48 bg-gradient-to-br from-accent to-orange-500 flex items-center justify-center">
-        <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
+      <div className="relative h-48 bg-gradient-to-br from-accent to-orange-500 flex items-center  justify-center">
+        <div className="h-48 w-[340px] overflow-hidden  border-white/30 shadow-lg">
           <img
             src={user.profileImage}
             alt={user.username}

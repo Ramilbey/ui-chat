@@ -50,7 +50,7 @@ const ContactList = ({ onSelectUser }) => {
   }
 
   return (
-    <div className="w-[360px] bg-card border-r border-border flex flex-col h-screen">
+    <div className="w-[360px] h-[720px] shadow-lg bg-card border-r border-border flex flex-col h-screen rounded-3xl m-3">
       {/* Header */}
       <div className="flex-shrink-0 p-6 border-b border-border">
         <h2 className="text-xl font-semibold text-foreground mb-4">Chat</h2>

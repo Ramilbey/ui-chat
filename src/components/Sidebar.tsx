@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   return (
     <aside className="w-20 h-[650px] bg-gradient-to-b from-primary-dark to-primary 
-    flex flex-col items-center justify-start py-8 gap-6 
+    flex flex-col items-center justify-start py-8 gap-6 mt-3
     rounded-tr-3xl rounded-br-3xl">
       {navItems.map((item, index) => (
         <button

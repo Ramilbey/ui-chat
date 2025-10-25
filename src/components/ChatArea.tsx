@@ -94,10 +94,10 @@ const ChatArea = ({ selectedUser }) => {
   };
 
   return (
-    <div className="flex-1 flex flex-col bg-background h-screen">
+    <div className="flex-1 flex flex-col bg-background  h-[720]  mt-3 mb-3 shadow-lg rounded-b-[30px]">
       {/* Header */}
-      <div className="border-b border-border p-3 sm:p-4 flex items-center justify-between bg-card">
-        <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+      <div className="border-b border-border p-3 sm:p-4 flex items-center justify-between bg-card  rounded-t-[30px] ">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1 ">
           <img
             src={selectedUser?.profileImage || "/default-avatar.png"}
             alt={selectedUser?.username || "User"}
@@ -159,8 +159,8 @@ const ChatArea = ({ selectedUser }) => {
         <div ref={bottomRef} />
       </div>
 
-      {/* Input */}
-      <div className="border-t border-border p-3 sm:p-4 bg-card flex items-center gap-2">
+      
+      <div className="border-t border-border p-3 sm:p-4 bg-card flex items-center gap-2 rounded-b-[30px]">
         <input
           value={messageInput}
           onChange={(e) => setMessageInput(e.target.value)}
