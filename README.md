@@ -6,4 +6,4 @@ Installation instructions:
 npm i
 npm run dev
 ```
-![App preview] (public/ui.jpg)
+![App preview](public/ui.jpg)
