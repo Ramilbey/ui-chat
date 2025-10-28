@@ -7,3 +7,4 @@ npm i
 npm run dev
 ```
 ![App preview](public/ui.jpg)
+
